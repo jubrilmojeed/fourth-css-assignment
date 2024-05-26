@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav{
+    height: 10vh;
+    background-color: rgb(36, 134, 101);
+    width: 100%;
+    padding: 20px;
+}
+
+.center{
+    max-width: 700px;
+    margin: 0 auto;
+    height: 10vh;
+}
+
+header nav .logo{
+    background-color: white;
+    float: left;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(36, 134, 101);
+    font-family: sans-serif;
+    
+}
+
+header nav ul{
+    float: right;
+}
+header nav ul li{
+    list-style-type: none;
+    float: right;
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+header nav ul li a:visited{
+    text-decoration: none;
+    color: white;
+
+}
+header nav ul li a:active{
+    text-decoration: none;
+    color: white;
+
+}
+header nav ul li a:hover{
+    text-decoration: none;
+    color: orange;
+
+}
+header nav ul li a:link{
+    text-decoration: none;
+    color: white;
+
+}
+
+.hero{
+    height: 100vh;
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgb(33, 32, 32);
+}
+.hero .write{
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    height: 100px;
+}
+.hero .write h1{
+    color: white;
+    font-size: 4em;
+    font-family: sans-serif;
+}
+.hero .write p{
+    color: rgb(36, 134, 101);
+    font-weight:normal;
+    font-size: 3em;
+    padding: 10px;
+
+}
+
+.main{
+    background-color: rgb(66, 69, 77);
+    height: 100%;
+    width: 100%;
+}
+.section2{
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-top: 300px;
+}
+.main .section2 h1{
+    font-size: 5em;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.main .section2 .page{
+  font-size: 2em;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  padding-top: 14px;
+}
+.main .para{
+    height: 50vh;
+    max-width:700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+.main .para .icon{
+    color: white;
+    display: inline-block;
+    padding-right: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.main .para .icon a{
+    color: white;
+    text-decoration: none;
+}
+.main .para .icon a:visited{
+    color: white;
+    text-decoration: none;
+}
+.main .para .icon a:hover{
+    color: white;
+    text-decoration: none;
+}
+.main .para .icon a:active{
+    color: white;
+    text-decoration: none;
+}
+.main .para .icon a:link{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    max-width: 700px;
+    height: 50px;
+    margin: 0 auto;
+    background-color:rgb(66, 69, 77);
+    color: white;
+    font-size: larger;
+    font-family: sans-serif;
+}
